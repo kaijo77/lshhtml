@@ -1,5 +1,4 @@
 .profile-img {
-    background-color: black;
     height: 300px;
     text-align: center;
 }
@@ -20,4 +19,90 @@
     margin-bottom: 20px;
     font-size: 20px;
     text-align: left;
+}
+
+.education h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.education li {
+    list-style-type: none;
+    margin-left: 43%;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.personality h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.personality li {
+    list-style-type: none;
+    margin-left: 43%;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.background {
+    background-image: url('/images/plant.jpg');
+    height: 100%;
+    background-repeat : no-repeat;
+    background-size : cover;
+    animation: fadein 0.7s;
+}
+
+@keyframes fadein {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+
+.menu {
+    text-align: center;
+    word-spacing: 100px;
+}
+
+a {
+    text-decoration-line: none;
+  }
+
+.menu ul {
+    list-style: none;
+}
+.menu li {
+    float: left
+    margin-right 20px;;
+}
+
+#topMenu {            
+    height: 30px;
+    width: 1000%; 
+}
+#topMenu ul li {                       
+    list-style: none;          
+    color: black;
+    float: left;               
+    line-height: 100px;         
+    vertical-align: middle;    
+    text-align: center;        
+}
+#topMenu .menuLink {                              
+    text-decoration:none;                     
+    color: black;                          
+    display: block;                           
+    width: 495px;                              
+    font-size: 20px;                          
+    font-weight: bold;                        
+    font-family: "Trebuchet MS", Dotum, Arial; 
+}
+#topMenu .menuLink:hover {           
+    color: white;                   
+    background-color: #4d4d4d;    
 }
