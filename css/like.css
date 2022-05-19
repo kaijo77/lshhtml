@@ -81,3 +81,6 @@ p {
     font-weight: bold;                        
     font-family: "Trebuchet MS", Dotum, Arial; 
 }
+header {
+    height: 75px;
+}
