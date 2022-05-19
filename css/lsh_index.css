@@ -1,7 +1,7 @@
 body {
 
   height: 100vh;
-  background-image: url('/images/tree.jpg');
+  background-image: url('./images/tree.jpg');
   background-repeat : no-repeat;
   background-size : cover;
 }
