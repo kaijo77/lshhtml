@@ -50,8 +50,8 @@ div {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    margin-left: 10%;
-    margin-top: 10%;
+
+    clear: left;
 }
 .game {
     width: 300px;
@@ -60,9 +60,10 @@ div {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    margin-left: 20%;
-    margin-top: 10%;
     text-align: left;
+    margin-left: 300px;
+    margin-right: 300px;
+
 }
 .new {
     width: 300px;
@@ -71,9 +72,7 @@ div {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    margin-left: 20%;
-    margin-top: 10%;
-    margin-bottom: 20%;
+
 }
 p {
     text-align: center;
@@ -83,4 +82,13 @@ p {
 }
 header {
     height: 75px;
+}
+h1 {
+    text-align: center;
+    margin-top: 5%;
+}
+.likes {
+    margin-top: 200px;
+    margin-left: 250px;
+    margin-right: 100px;
 }
